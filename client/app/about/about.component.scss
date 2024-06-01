@@ -1,0 +1,41 @@
+ul {
+  &:first-child {
+    list-style-type: none;
+    margin-left: -20px;
+  }
+}
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: auto;
+  padding: 20px;
+  width: 800px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  margin: -20px -20px 20px -20px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.card-body ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card-body li {
+  margin-bottom: 10px;
+}
+
+.card-body a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.card-body a:hover {
+  text-decoration: underline;
+}
